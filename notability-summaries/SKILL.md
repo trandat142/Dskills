@@ -40,12 +40,23 @@ Deadline, bài tập, hành động không được trộn lẫn vào phần ki�
 Copy checklist này vào câu trả lời và tick dần:
 
 ```
+- [ ] B1.0: Kiểm tra nguồn có đủ không; thiếu thì dừng lại hỏi
 - [ ] B1: Đọc hết transcript, liệt kê mọi chủ đề được nhắc
 - [ ] B2: Gom ý thành các chủ đề lớn (mỗi chủ đề = 1 mục H2)
 - [ ] B3: Chọn định dạng cho từng loại nội dung
 - [ ] B4: Chuẩn hóa và gắn nhãn thuật ngữ chưa chắc
 - [ ] B5: Rà soát độ chính xác và độ phủ
 ```
+
+**B1.0. Kiểm tra tính toàn vẹn của nguồn (làm trước mọi việc khác).**
+Transcript hay bị cắt do giới hạn nạp file, và một bản tóm tắt thiếu nửa cuối thường là bản tóm tắt thiếu đúng phần deadline và bài tập. Trước khi viết bất cứ chữ nào:
+
+1. Đối chiếu phần thực sự đọc được với tổng dung lượng nguồn (số dòng, số trang, tổng thời lượng). Nếu công cụ báo kiểu "169/210 dòng" thì coi như nguồn đang thiếu.
+2. Đọc riêng khoảng 10 dòng cuối cùng. Kiểm tra ba dấu hiệu: có kết thúc bằng một ý trọn vẹn không, có đoạn chốt buổi không (giao bài tập, hẹn buổi sau, chào tạm biệt), có câu nào đứt giữa chừng không.
+3. Nếu thiếu dòng, hoặc bản ghi dừng giữa câu, hoặc không có đoạn chốt buổi: **dừng lại, không viết tóm tắt**. Báo cho người dùng biết đọc được bao nhiêu trên tổng bao nhiêu, trích lại câu cuối cùng đọc được để họ định vị, và đề nghị họ dán trực tiếp phần còn thiếu vào chat hoặc tách file làm nhiều phần.
+4. Chỉ viết bản tóm tắt thiếu (kèm callout cảnh báo ở đầu trang) khi người dùng đã xác nhận không lấy được phần còn lại.
+
+Lý do dừng thay vì cứ viết rồi cảnh báo: viết trước thì sẽ phải viết lại lần hai khi có đủ nguồn, và người đọc dễ bỏ qua callout mà tưởng bản tóm tắt đã đầy đủ.
 
 **B1. Đọc hết trước khi viết.** Liệt kê nhanh danh sách chủ đề để không bỏ sót.
 Với transcript dài (buổi 2 đến 3 giờ, không đọc trọn một lần được): chia thành các đoạn khoảng 20 đến 30 phút, liệt kê chủ đề từng đoạn, rồi mới gộp danh sách toàn buổi. Luôn quay lại kiểm đoạn CUỐI, vì đó là nơi hay bị bỏ sót nhất và thường chứa deadline, bài tập, nội dung buổi sau.
@@ -79,7 +90,7 @@ Xem [references/examples.md](references/examples.md) để bắt đúng giọng 
 - **Transcript song ngữ hoặc lẫn thuật ngữ tiếng Anh**: viết tóm tắt bằng tiếng Việt, giữ nguyên thuật ngữ tiếng Anh ở dạng gốc (Hug Contents, Auto Layout), không dịch máy móc.
 - **Transcript ngắn dưới 15 phút**: bỏ bớt tầng mục, gộp thành một danh sách chủ đề phẳng thay vì dựng đủ khung.
 - **Không có deadline hay bài tập nào được nhắc**: bỏ mục "Yêu cầu & Deadline", nhưng nói rõ một dòng ở cuối rằng transcript không nhắc tới deadline, để người đọc không tưởng là bị sót.
-- **Transcript thiếu đầu hoặc cuối**: ghi rõ ở đầu bản tóm tắt phần nào bị thiếu.
+- **Transcript thiếu đầu hoặc cuối**: theo B1.0, mặc định là dừng lại và hỏi. Chỉ khi người dùng xác nhận không có phần còn lại thì mới viết, và phải ghi rõ ngay ở đầu bản tóm tắt phần nào bị thiếu.
 
 ## Kiểm tra trước khi xuất
 
@@ -92,3 +103,4 @@ Xem [references/examples.md](references/examples.md) để bắt đúng giọng 
 - [ ] Mỗi chủ đề có nhãn Cốt lõi hoặc Tham khảo
 - [ ] Deadline và bài tập nằm ở mục riêng
 - [ ] Với transcript dài: đã kiểm lại phần cuối
+- [ ] Nguồn đã đủ, hoặc người dùng đã xác nhận đồng ý viết với nguồn thiếu
