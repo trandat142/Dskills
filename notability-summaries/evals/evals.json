@@ -1,0 +1,23 @@
+{
+  "skill_name": "notability-summaries",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tóm tắt giúp mình transcript buổi học này",
+      "expected_output": "Bản tóm tắt gom theo chủ đề, có nhãn Cốt lõi/Tham khảo, có mục Yêu cầu & Deadline và Hành động cần làm khi transcript nhắc tới",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Đây là bản ghi buổi 3 khóa Figma, dài khoảng 2 tiếng rưỡi, note lại cho mình",
+      "expected_output": "Xử lý theo đoạn, không bỏ sót phần cuối transcript (deadline, bài tập, nội dung buổi sau); thuật ngữ nghe nhầm được chuẩn hóa hoặc gắn nhãn cần xác minh",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Làm summary cho webinar này, không có bài tập gì đâu",
+      "expected_output": "Bỏ mục bài tập nhưng nêu rõ transcript không nhắc deadline; mục Thông tin chung được điều chỉnh cho định dạng webinar",
+      "files": []
+    }
+  ]
+}
